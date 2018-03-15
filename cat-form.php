@@ -56,29 +56,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && Form::testToken('contact-form-1') ==
                 <b>'."Address:</b> " .$_POST['street']. " " .$_POST['city']. ", " .$_POST['state']. " " .$_POST['zipcode'].'
 
                 <hr style="height:1px;padding:0px;margin:0px;" />
-				
-				<b>'."Names of other adults residing with you:</b> " .$_POST['other-adults'].'
-				
-				<br><b>'."Number of children living in the house:</b> " .$_POST['number-of-children'].'
+                
+                <b>'."Names of other adults residing with you:</b> " .$_POST['other-adults'].'
+                
+                <br><b>'."Number of children living in the house:</b> " .$_POST['number-of-children'].'
 
-				<br><b>'."Ages:</b> " .$_POST['ages'].'
-				
-				<br><b>'."Do they live there full time:</b> " .$_POST['live-full-time'].'
-				
-				<br><b>'."Note any type of pet(s) they have shown fear of:</b> " .$_POST['shown-fear'].'
-				
-				<br><b>'."Do other children visit:</b> " .$_POST['other-children'].'
-					<br>&emsp; <b>'."How often do they visit:</b> " .$_POST['how-often-visit'].'
-				
-				<br><b>'."Does anyone in your household have allergies or asthma:</b> " .$_POST['allergies-asthma'].'
-				
-				<br>&emsp;<b>'."Does pets/dander trigger a reaction:</b> " .$_POST['allergies-asthma-yes'].'
-				
-				<br><b>'."Does your entire household know that you are considering adopting a pet:</b> " .$_POST['entire-house-know'].'
-				
-				<br>&emsp;<b>'."Why not:</b> " .$_POST['entire-house-know-no'].'
+                <br><b>'."Ages:</b> " .$_POST['ages'].'
+                
+                <br><b>'."Do they live there full time:</b> " .$_POST['live-full-time'].'
+                
+                <br><b>'."Note any type of pet(s) they have shown fear of:</b> " .$_POST['shown-fear'].'
+                
+                <br><b>'."Do other children visit:</b> " .$_POST['other-children'].'
+                    <br>&emsp; <b>'."How often do they visit:</b> " .$_POST['how-often-visit'].'
+                
+                <br><b>'."Does anyone in your household have allergies or asthma:</b> " .$_POST['allergies-asthma'].'
+                
+                <br>&emsp;<b>'."Does pets/dander trigger a reaction:</b> " .$_POST['allergies-asthma-yes'].'
+                
+                <br><b>'."Does your entire household know that you are considering adopting a pet:</b> " .$_POST['entire-house-know'].'
+                
+                <br>&emsp;<b>'."Why not:</b> " .$_POST['entire-house-know-no'].'
 
-				<hr style="height:1px;padding:0px;margin:0px;" />
+                <hr style="height:1px;padding:0px;margin:0px;" />
 
                 '."<b>Where did you hear about us:</b> " .$_POST['where-did-you-hear-about-us']. 
                 "<br><b>Have you spoken with a Volunteer:</b> " .$_POST['spoken-with-a-volunteer']. 
@@ -86,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && Form::testToken('contact-form-1') ==
 
                 <hr style="height:1px;padding:0px;margin:0px;" />
 
-                <p>'."<b>Why do you want to adopt a pet:</b> " .$_POST['why-do-you-want-to-adopt-a-pet'][0]. "|" .$_POST['why-do-you-want-to-adopt-a-pet'][1]. "|" .$_POST['why-do-you-want-to-adopt-a-pet'][2]. "|" .$_POST['why-do-you-want-to-adopt-a-pet'][3].
+                <p>'."<b>Why do you want to adopt a pet:</b> " .$_POST['why-do-you-want-to-adopt-a-pet'][0]. "|" .$_POST['why-do-you-want-to-adopt-a-pet'][1]. "|" .$_POST['why-do-you-want-to-adopt-a-pet'][2].
                 "<br> <b>The pet will be primarily housed in: </b> " .$_POST['where-will-the-pet-be-primarily-housed'].' 
                 <br> <b>'."Where will the pet sleep:</b> " .$_POST['where-will-pet-sleep'].'
 
@@ -108,6 +108,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && Form::testToken('contact-form-1') ==
                 <br> <b>'."Would Consider:</b> " .$_POST['would-you-consider'][0]. "|" .$_POST['would-you-consider'][1]. "|" .$_POST['would-you-consider'][2].'
 
                 <br> <b>'."Size:</b> " .$_POST['size'][0]. "|" .$_POST['size'][1]. "|" .$_POST['size'][2]. "|" .$_POST['size'][3]. "|" .$_POST['size'][4]. "|" .$_POST['size'][5].'
+
+                <hr style="height:1px;padding:0px;margin:0px;" />
+
+                <h3>Fence Info</h3>
+                <b>'."Fence:</b> " .$_POST['do-you-have-a-fence'].'
+                <br>&emsp;<b>Other:</b><br>&emsp;&emsp;&emsp;  '.$_POST['do-you-have-a-fence-other'].'
+
+                <br> <b>'."Fence Material:</b> " .$_POST['what-material-is-the-fence-made-of'].'
+                <br> <b>'."Fence Height:</b> " .$_POST['height-of-the-fence'].'
+                <br> <b>'."Size of fenced area:</b> " .$_POST['size-of-the-fenced-area'].'
+
+                <br> <b>'."Is the fence securely enclosed on all sides:</b> " .$_POST['is-fence-securely-enclosed-on-all-four-sides'].'
+                <br> <b>'."How many gates:</b> " .$_POST['how-many-gates'].'
+                <br> <b>'."Do they all securely latch and lock:</b> " .$_POST['do-they-all-securely-latch-and-lock'].'
+
+                <br> <b>'."Do you have a pool or hot tub:</b> " .$_POST['do-you-have-a-pool-or-hot-tub'].'
+                <br> <b>'."Is there a barrier:</b> " .$_POST['is-there-a-barrier-to-keep-pet-out'].'
+                        <br>&emsp;<b>Describe the barrier: </b><br>&emsp;&emsp;&emsp;  '.$_POST['describe-the-barrier-to-keep-pet-out'].'
+
+                <br><b>'."Would the dog be off leash:</b> " .$_POST['would-the-dog-be-off-leash'].'
+                        <br>&emsp;<b>Under what circumstances would they be off leash:</b><br>&emsp;&emsp;&emsp;  '.$_POST['under-what-circumstances-off-leash'].'
+
+                <br><b>'."How will the pet be exercised:</b> " .$_POST['how-will-your-pet-be-exercised'][0]. "|" .$_POST['how-will-your-pet-be-exercised'][1]. "|" .$_POST['how-will-your-pet-be-exercised'][2]. "|" .$_POST['how-will-your-pet-be-exercised'][3].'
+                        <br>&emsp;<b>Other:</b><br>&emsp;&emsp;&emsp;  '.$_POST['how-will-your-pet-be-exercised-other'].'
 
                 <hr style="height:1px;padding:0px;margin:0px;" />
 
@@ -170,6 +194,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && Form::testToken('contact-form-1') ==
                 
                 <hr style="height:1px;padding:0px;margin:0px;" />
 
+                <br><b>'."Is there a leash law in your town:</b> " .$_POST['is-there-a-leash-law-in-your-town'].'
+                    <br>&emsp;<b>Other:</b><br>&emsp;&emsp;&emsp;  '.$_POST['is-there-a-leash-law-in-your-town-other'].'
+
                 <hr style="height:1px;padding:0px;margin:0px;" />
 
                 <h3>References</h3>
@@ -195,12 +222,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && Form::testToken('contact-form-1') ==
         </html>';
         // Write some HTML code:
         $mpdf->WriteHTML($html);
-        $location = __DIR__ .'/assets/pdf/cat/';
+        $location = __DIR__ .'/assets/pdf/';
         // Output a PDF file directly to the browser
         $mpdf->Output($location .$file_name.'.pdf', \Mpdf\Output\Destination::FILE);
         //$mpdf->Output();
         $email_config = array(
-            'sender_email'    => 'dogs@freetobemerescue.org',
+            'sender_email'    => 'cats@freetobemerescue.org',
             'sender_name'     => 'New Cat Appication',
             'reply_to_email'  => 'freetobemerescue@gmail.com',
             'recipient_email' => addslashes($_POST['email']),
@@ -328,18 +355,19 @@ $form->addHtml('<hr>');
 $complete_list2 = [
     '%availableTags%' =>
     '
+    "Not Sure",
     "Lisa N.",
     "Lisa C.",
     "Kathy",
+    "Nancy",
     '
 ];
 $form->addPlugin('autocomplete', '#volunteer-spoken-with', 'default', $complete_list2);
 
 //Why do you want to adopt a pet?
-$form->addCheckbox('why-do-you-want-to-adopt-a-pet', 'Hunting', 'Hunting');
+$form->addCheckbox('why-do-you-want-to-adopt-a-pet', 'Pest Control', 'Pest Control');
 $form->addCheckbox('why-do-you-want-to-adopt-a-pet', 'Companionship', 'Companionship');
 $form->addCheckbox('why-do-you-want-to-adopt-a-pet', 'Breeding', 'Breeding');
-$form->addCheckbox('why-do-you-want-to-adopt-a-pet', 'Protection', 'Protection');
 $form->printCheckboxGroup('why-do-you-want-to-adopt-a-pet', 'Why do you want to adopt a pet?', true, 'falseded');
 $form->addHtml('<hr>');
 
@@ -353,10 +381,8 @@ $form->addHtml('<hr>');
 
 //Where will your pet be when no one is at home?
 $form->addCheckbox('where-will-your-pet-be-when-no-one-is-at-home', 'Loose outside', 'Loose outside');
-$form->addCheckbox('where-will-your-pet-be-when-no-one-is-at-home', 'Kennel run/fenced area outside', 'Kennel run/fenced area outside');
 $form->addCheckbox('where-will-your-pet-be-when-no-one-is-at-home', 'Loose inside', 'Loose inside');
 $form->addCheckbox('where-will-your-pet-be-when-no-one-is-at-home', 'Crated or otherwise confined inside', 'Crated or otherwise confined inside');
-$form->addCheckbox('where-will-your-pet-be-when-no-one-is-at-home', 'Tied/chained outside', 'Tied/chained outside');
 $form->addCheckbox('where-will-your-pet-be-when-no-one-is-at-home', 'Other', 'Other');
 $form->printCheckboxGroup('where-will-your-pet-be-when-no-one-is-at-home', 'Where will your pet be when no one is at home?', true, 'falseded');
 $form->startDependentFields('where-will-your-pet-be-when-no-one-is-at-home', 'Other');
@@ -375,10 +401,6 @@ $form->addCheckbox('please-note-your-pet-preferences', 'No preference', 'No pref
 $form->printCheckboxGroup('please-note-your-pet-preferences', 'Please note your pet preferences', true, 'falseded');
 $form->addHtml('<hr>');
 
-//Breeds of interest to you
-$form->addInput('text', 'breeds-of-interest-to-you', '', 'Breeds of interest to you', 'placeholder=Breeds of interest to you');
-$form->addHtml('<hr>');
-
 //Male or Female
 $form->addRadio('male-or-female', 'Male', 'Male');
 $form->addRadio('male-or-female', 'Female', 'Female');
@@ -387,7 +409,7 @@ $form->printRadioGroup('male-or-female', 'Male or Female?', true, 'falseded');
 $form->addHtml('<hr>');
 
 //Age range CHANGE FOR CATS - ASK ABOUT AGES
-$form->addCheckbox('age-range', 'Puppy', 'Puppy');
+$form->addCheckbox('age-range', 'Kitten', 'Kitten');
 $form->addCheckbox('age-range', 'Young', 'Young');
 $form->addCheckbox('age-range', 'Senior', 'Senior');
 $form->addCheckbox('age-range', 'No Preference', 'No Preference');
@@ -410,83 +432,10 @@ $form->printCheckboxGroup('would-you-consider', 'Would you consider', true);
 $form->addHtml('<hr>');
 
 //Size
-$form->addCheckbox('size', 'Mini (up to 10 lbs)', 'Mini (up to 10 lbs)');
-$form->addCheckbox('size', 'Small (10-30 lbs)', 'Small (10-30 lbs)');
-$form->addCheckbox('size', 'Medium (30-45 lbs)', 'Medium (30-45 lbs)');
-$form->addCheckbox('size', 'Large (50-75 lbs)', 'Large (50-75 lbs)');
-$form->addCheckbox('size', 'Giant (75 lbs and up)', 'Giant (75 lbs and up)');
+$form->addCheckbox('size', 'Small (up to 10 lbs)', 'Small (up to 10 lbs)');
+$form->addCheckbox('size', 'Large (10-20 lbs)', 'Large (10-20 lbs)');
 $form->addCheckbox('size', 'No Preference', 'No Preference');
 $form->printCheckboxGroup('size', 'Size', false, 'falseded');
-$form->addHtml('<hr>');
-
-//DOG QUESTION
-
-//Do you have a fence?
-$form->addRadio('do-you-have-a-fence', 'No', 'No');
-$form->addRadio('do-you-have-a-fence', 'Traditional fence', 'Yes');
-$form->addRadio('do-you-have-a-fence', 'Invisible fence', 'Invisible fence');
-$form->addRadio('do-you-have-a-fence', 'Kennel Run', 'Kennel Run');
-$form->addRadio('do-you-have-a-fence', 'Trolley Run', 'Trolley Run');
-$form->addRadio('do-you-have-a-fence', 'No Outside Confined Area', 'No Outside Confined Area');
-$form->addRadio('do-you-have-a-fence', 'Other', 'Other');
-$form->printRadioGroup('do-you-have-a-fence', 'Do you have a fence?', false, 'falseded');
-//Yes
-$form->startDependentFields('do-you-have-a-fence', 'Yes');
-$form->addInput('text', 'what-material-is-the-fence-made-of', '', 'What material is the fence made of?', 'falseded');
-$form->addInput('text', 'height-of-the-fence', '', 'Height of the fence', 'falseded');
-$form->addInput('text', 'size-of-the-fenced-area', '', 'Size of the fenced area?', 'falseded');$form->addHtml('<hr>');
-
-//Is fence securely enclosed on all four sides?
-$form->addRadio('is-fence-securely-enclosed-on-all-four-sides', 'Yes', 'Yes');
-$form->addRadio('is-fence-securely-enclosed-on-all-four-sides', 'No', 'No');
-$form->printRadioGroup('is-fence-securely-enclosed-on-all-four-sides', 'Is fence securely enclosed on all four sides?', true, 'falseded');
-$form->addInput('text', 'how-many-gates', '', 'How many gates?', 'falseded');
-//Do they all securely latch and lock?
-$form->addRadio('do-they-all-securely-latch-and-lock', 'Yes', 'Yes');
-$form->addRadio('do-they-all-securely-latch-and-lock', 'No', 'No');
-$form->printRadioGroup('do-they-all-securely-latch-and-lock', 'Do they all securely latch and lock?', true, 'falseded');
-$form->endDependentFields();
-//Other
-$form->startDependentFields('do-you-have-a-fence', 'Other');
-$form->addInput('text', 'do-you-have-a-fence-other', '', 'Describe:', 'falseded');
-$form->endDependentFields();
-$form->addHtml('<hr>');
-
-//Do you have a pool or hot tub?
-$form->addRadio('do-you-have-a-pool-or-hot-tub', 'Yes', 'Yes');
-$form->addRadio('do-you-have-a-pool-or-hot-tub', 'No', 'No');
-$form->printRadioGroup('do-you-have-a-pool-or-hot-tub', 'Do you have a pool or hot tub?', true, 'falseded');
-$form->startDependentFields('do-you-have-a-pool-or-hot-tub', 'Yes');
-//Is there a barrier to keep pet out?
-$form->addRadio('is-there-a-barrier-to-keep-pet-out', 'Yes', 'Yes');
-$form->addRadio('is-there-a-barrier-to-keep-pet-out', 'No', 'No');
-$form->printRadioGroup('is-there-a-barrier-to-keep-pet-out', 'Is there a barrier to keep pet out of the pool/hot tub?', true, 'falseded');
-$form->startDependentFields('is-there-a-barrier-to-keep-pet-out', 'Yes');
-//Is there a barrier to keep pet out?
-$form->addInput('text', 'describe-the-barrier-to-keep-pet-out', '', 'Describe the barrier to keep the pet out:', 'falseded');
-$form->endDependentFields();
-$form->endDependentFields();
-$form->addHtml('<hr>');
-
-//Would the Dog be off leash?
-$form->addRadio('would-the-dog-be-off-leash', 'Yes', 'Yes');
-$form->addRadio('would-the-dog-be-off-leash', 'No', 'No');
-$form->printRadioGroup('would-the-dog-be-off-leash', 'Would the Dog be off leash?', true, 'falseded');
-$form->startDependentFields('would-the-dog-be-off-leash', 'Yes');
-//Is there a barrier to keep pet out?
-$form->addInput('text', 'under-what-circumstances-off-leash', '', 'Under what circumstances will they we walked off leash:', 'falseded');
-$form->endDependentFields();
-$form->addHtml('<hr>');
-
-//How will your pet be exercised?
-$form->addCheckbox('how-will-your-pet-be-exercised', 'Off Leash unfenced area', 'Off Leash unfenced area');
-$form->addCheckbox('how-will-your-pet-be-exercised', 'Off Leash fenced area', 'Off Leash fenced area');
-$form->addCheckbox('how-will-your-pet-be-exercised', 'Walked on leash', 'Walked on leash');
-$form->addCheckbox('how-will-your-pet-be-exercised', 'Other', 'Other');
-$form->printCheckboxGroup('how-will-your-pet-be-exercised', 'How will your pet be exercised?', true);
-$form->startDependentFields('how-will-your-pet-be-exercised', 'Other');
-$form->addInput('text', 'how-will-your-pet-be-exercised-other', '', 'Other', 'falseded');
-$form->endDependentFields();
 $form->addHtml('<hr>');
 
 //How long would the pet be left outside without supervision?
@@ -506,7 +455,6 @@ $form->addHtml('<hr>');
 
 //What problems or situations would make you return a pet?
 $form->addCheckbox('what-problems-or-situations-would-make-you-return-a-pet', 'Nothing', 'Nothing');
-$form->addCheckbox('what-problems-or-situations-would-make-you-return-a-pet', 'Excessive Barking', 'Excessive Barking');
 $form->addCheckbox('what-problems-or-situations-would-make-you-return-a-pet', 'Housebreaking', 'Housebreaking');
 $form->addCheckbox('what-problems-or-situations-would-make-you-return-a-pet', 'Jumping up', 'Jumping up');
 $form->addCheckbox('what-problems-or-situations-would-make-you-return-a-pet', 'Shyness/other fears', 'Shyness/other fears');
@@ -521,19 +469,9 @@ $form->addCheckbox('what-problems-or-situations-would-make-you-return-a-pet', 'D
 $form->addCheckbox('what-problems-or-situations-would-make-you-return-a-pet', 'Chewing', 'Chewing');
 $form->addCheckbox('what-problems-or-situations-would-make-you-return-a-pet', 'Cost of Pet Care', 'Cost of Pet Care');
 $form->addCheckbox('what-problems-or-situations-would-make-you-return-a-pet', 'Other', 'Other');
-$form->printCheckboxGroup('what-problems-or-situations-would-make-you-return-a-pet', 'When left out alone for this period what type of shelter is available?', false);
+$form->printCheckboxGroup('what-problems-or-situations-would-make-you-return-a-pet', 'What problems or situations would make you return a pet?', false);
 $form->startDependentFields('what-problems-or-situations-would-make-you-return-a-pet', 'Other');
 $form->addInput('text', 'what-problems-or-situations-would-make-you-return-a-pet-other', '', 'Other', 'falseded');
-$form->endDependentFields();
-$form->addHtml('<hr>');
-
-//To help resolve some problems are you willing to
-$form->addCheckbox('to-help-resolve-some-problems-are-you-willing-to', 'Use a crate', 'Use a crate');
-$form->addCheckbox('to-help-resolve-some-problems-are-you-willing-to', 'Enroll in obedience classes', 'Enroll in obedience classes');
-$form->addCheckbox('to-help-resolve-some-problems-are-you-willing-to', 'Other', 'Other');
-$form->printCheckboxGroup('to-help-resolve-some-problems-are-you-willing-to', 'To help resolve some problems are you willing to', true);
-$form->startDependentFields('to-help-resolve-some-problems-are-you-willing-to', 'Other');
-$form->addInput('text', 'to-help-resolve-some-problems-are-you-willing-to-other', '', 'What are you willing to do to resolve problems?', 'falseded');
 $form->endDependentFields();
 $form->addHtml('<hr>');
 
@@ -578,8 +516,7 @@ $form->addHtml('<hr>');
 //If you adopt a pet from us, will you
 $form->addRadio('if-you-adopt-a-pet-from-us-will-you', 'Declaw', 'Declaw');
 $form->addRadio('if-you-adopt-a-pet-from-us-will-you', 'Dock Tail', 'Dock Tail');
-$form->addRadio('if-you-adopt-a-pet-from-us-will-you', 'Ears', 'Ears');
-$form->addRadio('if-you-adopt-a-pet-from-us-will-you', 'Debark', 'Debark');
+$form->addRadio('if-you-adopt-a-pet-from-us-will-you', 'Dock Ears', 'Dock Ears');
 $form->addRadio('if-you-adopt-a-pet-from-us-will-you', 'None of the above', 'None of the above');
 $form->addRadio('if-you-adopt-a-pet-from-us-will-you', 'Other', 'Other');
 $form->printRadioGroup('if-you-adopt-a-pet-from-us-will-you', 'If you adopt a pet from us, will you', true, 'falseded');
