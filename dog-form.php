@@ -355,9 +355,11 @@ $form->addHtml('<hr>');
 $complete_list2 = [
     '%availableTags%' =>
     '
+    "Not Sure",
     "Lisa N.",
     "Lisa C.",
     "Kathy",
+    "Nancy",
     '
 ];
 $form->addPlugin('autocomplete', '#volunteer-spoken-with', 'default', $complete_list2);
@@ -548,7 +550,7 @@ $form->addCheckbox('what-problems-or-situations-would-make-you-return-a-pet', 'D
 $form->addCheckbox('what-problems-or-situations-would-make-you-return-a-pet', 'Chewing', 'Chewing');
 $form->addCheckbox('what-problems-or-situations-would-make-you-return-a-pet', 'Cost of Pet Care', 'Cost of Pet Care');
 $form->addCheckbox('what-problems-or-situations-would-make-you-return-a-pet', 'Other', 'Other');
-$form->printCheckboxGroup('what-problems-or-situations-would-make-you-return-a-pet', 'When left out alone for this period what type of shelter is available?', false);
+$form->printCheckboxGroup('what-problems-or-situations-would-make-you-return-a-pet', 'What problems or situations would make you return a pet?', false);
 $form->startDependentFields('what-problems-or-situations-would-make-you-return-a-pet', 'Other');
 $form->addInput('text', 'what-problems-or-situations-would-make-you-return-a-pet-other', '', 'Other', 'falseded');
 $form->endDependentFields();
@@ -605,7 +607,7 @@ $form->addHtml('<hr>');
 //If you adopt a pet from us, will you
 $form->addRadio('if-you-adopt-a-pet-from-us-will-you', 'Declaw', 'Declaw');
 $form->addRadio('if-you-adopt-a-pet-from-us-will-you', 'Dock Tail', 'Dock Tail');
-$form->addRadio('if-you-adopt-a-pet-from-us-will-you', 'Ears', 'Ears');
+$form->addRadio('if-you-adopt-a-pet-from-us-will-you', 'Dock Ears', 'Dock Ears');
 $form->addRadio('if-you-adopt-a-pet-from-us-will-you', 'Debark', 'Debark');
 $form->addRadio('if-you-adopt-a-pet-from-us-will-you', 'None of the above', 'None of the above');
 $form->addRadio('if-you-adopt-a-pet-from-us-will-you', 'Other', 'Other');

@@ -355,9 +355,11 @@ $form->addHtml('<hr>');
 $complete_list2 = [
     '%availableTags%' =>
     '
+    "Not Sure",
     "Lisa N.",
     "Lisa C.",
     "Kathy",
+    "Nancy",
     '
 ];
 $form->addPlugin('autocomplete', '#volunteer-spoken-with', 'default', $complete_list2);

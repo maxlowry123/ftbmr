@@ -107,31 +107,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && Form::testToken('contact-form-1') ==
 
                 <br> <b>'."Would Consider:</b> " .$_POST['would-you-consider'][0]. "|" .$_POST['would-you-consider'][1]. "|" .$_POST['would-you-consider'][2].'
 
-                <br> <b>'."Size:</b> " .$_POST['size'][0]. "|" .$_POST['size'][1]. "|" .$_POST['size'][2]. "|" .$_POST['size'][3]. "|" .$_POST['size'][4]. "|" .$_POST['size'][5].'
-
-                <hr style="height:1px;padding:0px;margin:0px;" />
-
-                <h3>Fence Info</h3>
-                <b>'."Fence:</b> " .$_POST['do-you-have-a-fence'].'
-                <br>&emsp;<b>Other:</b><br>&emsp;&emsp;&emsp;  '.$_POST['do-you-have-a-fence-other'].'
-
-                <br> <b>'."Fence Material:</b> " .$_POST['what-material-is-the-fence-made-of'].'
-                <br> <b>'."Fence Height:</b> " .$_POST['height-of-the-fence'].'
-                <br> <b>'."Size of fenced area:</b> " .$_POST['size-of-the-fenced-area'].'
-
-                <br> <b>'."Is the fence securely enclosed on all sides:</b> " .$_POST['is-fence-securely-enclosed-on-all-four-sides'].'
-                <br> <b>'."How many gates:</b> " .$_POST['how-many-gates'].'
-                <br> <b>'."Do they all securely latch and lock:</b> " .$_POST['do-they-all-securely-latch-and-lock'].'
-
-                <br> <b>'."Do you have a pool or hot tub:</b> " .$_POST['do-you-have-a-pool-or-hot-tub'].'
-                <br> <b>'."Is there a barrier:</b> " .$_POST['is-there-a-barrier-to-keep-pet-out'].'
-                        <br>&emsp;<b>Describe the barrier: </b><br>&emsp;&emsp;&emsp;  '.$_POST['describe-the-barrier-to-keep-pet-out'].'
-
-                <br><b>'."Would the dog be off leash:</b> " .$_POST['would-the-dog-be-off-leash'].'
-                        <br>&emsp;<b>Under what circumstances would they be off leash:</b><br>&emsp;&emsp;&emsp;  '.$_POST['under-what-circumstances-off-leash'].'
-
-                <br><b>'."How will the pet be exercised:</b> " .$_POST['how-will-your-pet-be-exercised'][0]. "|" .$_POST['how-will-your-pet-be-exercised'][1]. "|" .$_POST['how-will-your-pet-be-exercised'][2]. "|" .$_POST['how-will-your-pet-be-exercised'][3].'
-                        <br>&emsp;<b>Other:</b><br>&emsp;&emsp;&emsp;  '.$_POST['how-will-your-pet-be-exercised-other'].'
+                <br> <b>'."Size:</b> " .$_POST['size'][0]. "|" .$_POST['size'][1]. "|" .$_POST['size'][2].'
 
                 <hr style="height:1px;padding:0px;margin:0px;" />
 
@@ -140,11 +116,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && Form::testToken('contact-form-1') ==
                 <br><b>'."When left outside alone, what type of shelter is there:</b> " .$_POST['when-left-out-alone-for-this-period-what-type-of-shelter-is-available'][0]. "|" .$_POST['when-left-out-alone-for-this-period-what-type-of-shelter-is-available'][1]. "|" .$_POST['when-left-out-alone-for-this-period-what-type-of-shelter-is-available'][2]. "|" .$_POST['when-left-out-alone-for-this-period-what-type-of-shelter-is-available'][3].' 
                         <br>&emsp;<b>Other:</b><br>&emsp;&emsp;&emsp;  '.$_POST['when-left-out-alone-for-this-period-what-type-of-shelter-is-available-other'].'
 
-                <br><b>'."Problems or situations that would make :</b> " .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][0]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][1]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][2]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][3]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][4]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][5]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][6]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][7]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][8]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][9]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][10]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][11]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][12]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][13]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][14]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][15].'
+                <br><b>'."Problems or situations that would make :</b> " .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][0]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][1]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][2]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][3]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][4]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][5]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][6]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][7]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][8]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][9]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][10]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][11]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][12]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][13]. "|" .$_POST['what-problems-or-situations-would-make-you-return-a-pet'][14].'
                         <br>&emsp;<b>Other:</b><br>&emsp;&emsp;&emsp;  '.$_POST['what-problems-or-situations-would-make-you-return-a-pet-other'].'
-
-                <br><b>'."To help resolve some problems are you willing to:</b> " .$_POST['to-help-resolve-some-problems-are-you-willing-to'][0]. "|" .$_POST['to-help-resolve-some-problems-are-you-willing-to'][1]. "|" .$_POST['to-help-resolve-some-problems-are-you-willing-to'][2].'
-                        <br>&emsp;<b>Other:</b><br>&emsp;&emsp;&emsp;  '.$_POST['to-help-resolve-some-problems-are-you-willing-to-other'].'
 
                 <br><b>'."Describe your homes activity level:</b> " .$_POST['describe-your-homes-activity-level'].'
                     <br>&emsp;<b>Other:</b><br>&emsp;&emsp;&emsp;  '.$_POST['describe-your-homes-activity-level-other'].'
@@ -191,11 +164,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && Form::testToken('contact-form-1') ==
                             <br>&emsp;&emsp;&emsp;<b>Landlord Name:</b><br>&emsp;&emsp;&emsp;  '.$_POST['landlord-name'].'
                             <br>&emsp;&emsp;&emsp;<b>Landlord Phone Number:</b><br>&emsp;&emsp;&emsp;  '.$_POST['landlord-phone'].'
                             <br>&emsp;&emsp;&emsp;<b>Is there any restrictions on pet(s) weight, type, breed, etc. from the Landlord:</b><br>&emsp;&emsp;&emsp;  '.$_POST['landlord-restrictions'].'
-                
-                <hr style="height:1px;padding:0px;margin:0px;" />
-
-                <br><b>'."Is there a leash law in your town:</b> " .$_POST['is-there-a-leash-law-in-your-town'].'
-                    <br>&emsp;<b>Other:</b><br>&emsp;&emsp;&emsp;  '.$_POST['is-there-a-leash-law-in-your-town-other'].'
 
                 <hr style="height:1px;padding:0px;margin:0px;" />
 
