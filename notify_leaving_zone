@@ -44,4 +44,4 @@ action:
     domain: mobile_app
     type: notify
     device_id: !input notify_device
-    message: "{{ person_name }} has left {{ zone_state }}"
+    message: "{{ message }} has left {{ zone_state }}"
